@@ -9,6 +9,7 @@ jobs:
   build-dimensions:
     name: build dimensions
     runs-on: ubuntu-latest
+    container: node:12.16-alpine
 
     steps:
       - name: Checkout
